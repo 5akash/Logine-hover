@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+
+
+} .cotainer{
+    height: 100vh;
+    width: 100%;
+    background: rgb(15, 15, 15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+ max-width: 430px;
+ width: 100%;
+ background-color: rgb(234, 240, 246);
+ border: 6px;
+ padding: 30px;
+}
+header{
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+}
+form{
+    margin-top: 30px;
+}
+form .field{
+    height: 35px;
+    width: 100%;
+    margin-top: 20px;
+}
+.field input,
+.field ll{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-weight: 400;
+}
+.field input{
+    border: 2px solid rgb(80, 147, 214);
+    padding:0 15px;
+    border-radius: 5px;
+}
+.pass{
+    text-align: center;
+    margin-top: 10px;
+}
+.ak{
+    text-align: center;
+    margin-top: 10px;
+}
+.pp a{
+    color: aqua;
+    text-decoration: none;
+}
+.pp a:hover{
+    text-decoration: underline;
+   }
+.link{
+    position: relative;
+    border-bottom: 1px solid gray;
+    margin-top: 20px ;
+    width: 100%;
+    
+    height: 1px;
+   }
+.link::before{
+    content: 'Or';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aliceblue;
+    color: rgb(19, 17, 30);
+    padding: 0 15px;
+
+}
+.media-options a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+a.facebook{
+    color: aliceblue;
+    background-color: rgb(36, 36, 65);
+    height: 35px;
+    border-radius: 20px;
+    text-decoration: none;
+    
+    
+}
+a.google{
+    border: 1px solid gray;
+    height: 35px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: rgb(60, 74, 86);
+
+}
